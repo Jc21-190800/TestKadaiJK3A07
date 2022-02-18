@@ -10,14 +10,17 @@ namespace sisukaiyosizawa
     {
         public static int kuriage10(int i)
         {
-            if (i == 20)
+            decimal a = i;
+            int b;
+            if (a>=0)
             {
-                return 20;
+                b = (int)((Math.Ceiling(a/10))*10);
             }
             else
             {
-                return 10;
+                b = (int)((Math.Floor(a/10))*1);
             }
+            return b;
         }
     }
 }
