@@ -18,7 +18,7 @@ namespace sisukaiyosizawa
             }
             else
             {
-                b = (int)((Math.Floor(a/10))*1);
+                b = (int)((Math.Floor(a/10))*10);
             }
             return b;
         }
